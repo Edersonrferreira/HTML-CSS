@@ -1,0 +1,105 @@
+@charset "UTF-8" ;
+@font-face {
+    font-family:"android";
+    src: url("idroid.otf") format('opentype');
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+   
+
+}
+header{
+    background-color: #035015;
+    color: white;
+    background-image: linear-gradient(to top,#024010,#048021,#06BF31);
+    margin: -21px -21px -21px -21px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+a{
+
+    
+    margin: 21px;
+    padding-top: 0%;
+    color: rgba(222, 224, 220, 0.81);
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.17);
+}
+#titu{
+    font-family: "android";
+}
+main{
+    background-color: white;
+    margin: auto;
+    margin: 1px 20px 0px 22px;
+}
+main > p{
+    text-indent: 30px;
+}
+main > h2{
+    font-family: "android";
+    text-indent: 10px;
+    color: #025616;
+    background-color: #59ff0046;
+    background-image: linear-gradient(to left, #59ff0046,#02801f75 );
+    margin-left: 30px;
+    
+}
+.dan{
+    background-color: #06bf31a4;
+    color: #024010;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.dan::after{
+    content: '★';
+}
+#imagen{
+ text-align: center;
+}
+#video{
+    background-color: #024010c5;
+    margin: 20px 20px 20px 20px;
+}
+article > div{ 
+    
+    height: 490px;
+    width: 649px;
+            
+         
+            
+          /* Modo simplificado */
+            margin: 20px auto 40px auto;
+            
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            border-radius: 10px 10px 10px 10px;
+            background-color: #79ff98;
+}
+h3{
+    padding: 16px -3px -6px -9px;
+    margin: -12px -9px 0px -10px;
+    background-color: #014f15;
+    border-radius: 5px 4px 2px 2px;
+    color: white;
+}
+.direita{
+    display:inline-block;
+    text-align:justify;
+    
+}
+
+footer > .criador{
+    background-color: black;
+    color: white;
+}
